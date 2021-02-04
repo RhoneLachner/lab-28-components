@@ -12,9 +12,6 @@ export default class NewsSearch extends Component {
           <Search/>
         </div>
 
-        <div>
-          <Article />
-        </div>
 
         <div>
           <ArticleList />
