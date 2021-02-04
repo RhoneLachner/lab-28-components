@@ -1,17 +1,36 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default class Search extends Component {
-  render() {
-    return (
-      <>
-        <div>
-          <form>
-            <div>
-              <input type="search"></input>
-            </div>
-          </form>
-        </div>
-      </>
-    );
-  }
-}
+const Search = ({ search, onChange }) => (
+  <>
+    <input type="text" value={search} onChange={onChange} ></input>
+  </>
+);
+  
+Search.propTypes = {
+  search: PropTypes.string.isRequired,  
+  onChange: PropTypes.func.isRequired
+};
+
+export default Search;
+
+  
+
+
+
+// export default class Search extends Component {
+  
+//   render() {
+//     return (
+//       <>
+//         <div>
+//           <form>
+//             <div>
+//               <input type="search"></input>
+//             </div>
+//           </form>
+//         </div>
+//       </>
+//     );
+//   }
+// }
