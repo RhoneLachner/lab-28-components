@@ -1,6 +1,4 @@
-import Article from "./Article";
-
-
+// import Article from "./Article";
 
 export const getArticleBySearch = (search) => {
   // eslint-disable-next-line max-len

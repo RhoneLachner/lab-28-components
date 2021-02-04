@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Search from '../Search';
-import ArticleList from '../ArticleList';
-import { getArticleBySearch } from '../ArticleApi';
+import Search from '../components/Search';
+import ArticleList from '../components/articles/ArticleList';
+import { getArticleBySearch } from '../services/ArticleApi';
 
 export default class NewsSearch extends Component {
 

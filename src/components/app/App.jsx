@@ -5,7 +5,7 @@ import React from 'react';
 //   Switch,
 // } from 'react-router-dom';
 
-import NewsSearch from '../app/containers/NewsSearch';
+import NewsSearch from '../../containers/NewsSearch';
 
 export default function App() {
   return (
