@@ -7,8 +7,9 @@ const ArticleList = ({ articles }) => {
     <li key={article.title} >
       <Article {...article} />
     </li>
-  ));
 
+  ));
+  console.log(articles);
   return (
     <ul>
       {articleElements}

@@ -9,20 +9,16 @@ export default class NewsSearch extends Component {
       search: '',
       articles: []
     }
-
     handleChange = ({ target }) => {
       this.setState({ search:target.value });
       getArticleBySearch(target.value)
         .then(articles => this.setState({ articles }));
     }
-
+ 
     render() {
-
       const { search, articles } = this.state;
-
       return (
         <>
-
           <div>
             <Search
               search={search}
