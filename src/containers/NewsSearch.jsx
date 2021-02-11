@@ -16,8 +16,9 @@ export default class NewsSearch extends Component {
     }
  
     render() {
-      const { search, articles } = this.state;
-      return (
+      const { loading, search, articles } = this.state;
+      if(loading) return <h1>loading</h1>;
+      else return (
         <>
           <div>
             <Search

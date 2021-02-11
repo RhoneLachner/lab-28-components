@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NewsSearch container renders NewsSearch 1`] = `
+exports[`NewsSearch component renders NewsSearch 1`] = `
 <DocumentFragment>
   <div>
     <input
