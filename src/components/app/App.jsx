@@ -1,5 +1,18 @@
 import React from 'react';
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Switch,
+// } from 'react-router-dom';
+
+import NewsSearch from '../../containers/NewsSearch';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <h1>Welcome to the Home Page!</h1>
+      <NewsSearch />
+    </>
+  
+  );
 }
